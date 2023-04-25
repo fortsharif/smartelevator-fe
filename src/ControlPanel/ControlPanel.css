@@ -1,0 +1,41 @@
+.control-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #0062cc;
+}
+
+.button:active {
+  background-color: #005cbf;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  outline: none;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
